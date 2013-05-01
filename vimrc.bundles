@@ -1,0 +1,46 @@
+"" .vimrc.bundles - vim plugin configuration
+" vim: nowrap:sw=4:sts=4
+
+" required lines for Vundle
+filetype off "required
+set runtimepath+=~/.vim/bundle/Vundle
+call vundle#begin()
+
+" have Vundle manage itself
+Plugin 'gmarik/Vundle'
+
+" general plugins
+Plugin 'bling/vim-airline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Raimondi/delimitMate'
+Plugin 'scrooloose/syntastic'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'mbbill/undotree'
+Plugin 'scrooloose/nerdtree'
+Plugin 'djoshea/vim-autoread'
+
+" programming
+Plugin 'a.vim'
+if executable('ctags')
+    Plugin 'majutsushi/tagbar'
+end
+Plugin 'godlygeek/tabular'
+Plugin 'tomtom/tcomment_vim'
+
+" completion
+Plugin 'Valloric/YouCompleteMe'
+
+" file types
+Plugin 'tpope/vim-git'
+Plugin 'pangloss/vim-javascript'
+Plugin 'tpope/vim-markdown'
+Plugin 'wting/rust.vim'
+Plugin 'leafgarland/typescript-vim'
+
+" color schemes
+Plugin 'chriskempson/base16-vim'
+Plugin 'altercation/vim-colors-solarized'
+
+call vundle#end() " required
