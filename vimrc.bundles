@@ -38,6 +38,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-markdown'
 Plugin 'wting/rust.vim'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'fatih/vim-go'
 
 " color schemes
 Plugin 'chriskempson/base16-vim'
